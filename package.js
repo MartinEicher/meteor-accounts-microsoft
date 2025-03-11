@@ -1,13 +1,13 @@
 Package.describe({
   name: 'bluehive:accounts-microsoft',
-  version: '1.0.0',
+  version: '1.1.0',
   summary: 'A login service for Microsoft accounts.',
   git: 'https://github.com/MartinEicher/meteor-accounts-microsoft',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2.1');
+  api.versionsFrom('1.2.3');
 
   api.use('underscore');
   api.use('accounts-base', ['client', 'server']);
